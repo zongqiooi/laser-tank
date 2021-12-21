@@ -16,3 +16,6 @@ sudo apt install make
 make
 ./laserTank map.txt log.txt 
 ```
+
+# Some Screenshots from the Mini-Game
+![Laser 1](https://user-images.githubusercontent.com/95561298/146946314-0bdf1d91-efcf-4cdc-af08-c9f1f843bf14.PNG)
