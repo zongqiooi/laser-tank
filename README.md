@@ -14,12 +14,27 @@ This is an assignment for the <strong>COMP1000: Unix and C Programming</strong> 
 - C
 - Makefile 
 
-# Features
-- Player movement using the WASD keys
-- Shooting laser using the F key
-- Laser reflection with mirrors
-- Saving game history into "log.txt" files using the L key 
-
+# Features  
+1) **Player**
+    * Movement: Move by using the WASD keys 
+    * Shooting: Shoot by using the F key 
+2) **Enemy**
+    * Shooting: Shoot by the enemy automatically when the player moves in the direction where the enemy is facing
+3) **Laser**
+    * Color changing: Switch in RGB colour when the laser travels each step
+4) **Mirrors**
+    * Laser Reflection: Reflect and changes the direction of the laser into 4 directions depending on the incoming laser direction (North, East, South, West) and mirror directions (/ or \ mirrors)
+5) **Map**
+    * Map size: Configurable map size by changing the first line in the "map.txt" text file
+    * Boundary: Restrict the player and laser to move beyond the boundary 
+6) **Log file**
+    * Saving game history: Save the log of game history using the L key or automatically saved when a winning or losing condition happens
+7) **Game conditions**
+    * Winning: The enemy is hit with the laser shot by the player
+    * Losing: The player is hit with its own laser due to mirror reflection OR the player is hit by the enemy laser when it moves in the direction where the enemy is facing
+8) **Zero memory leaks**
+    * Zero memory leaks: Achieved zero memory leaks with malloc and free functions for the map created with dynamic array and the game log history stored with linked list
+   
 # Pre-requisites 
 Ubuntu environment is required to run the project. The Ubuntu on WSL2 in Windows can be installed and run with VS code in the following link: https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10
 
