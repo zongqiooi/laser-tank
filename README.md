@@ -3,10 +3,10 @@
 </p>
 
 # LaserTank
-LaserTank is a 2D game that allows the player to control the movement of the laser tank and shoot a laser. The laser will be reflected when it hits the mirrors. After the game ends, all the game history will be saved into a log file by using a linked list. 
+LaserTank is a 2D game that allows the player to control the movement of the laser tank and shoot a laser. The laser will be reflected when it hits the mirrors. After the game ends, all the 2D maps game history stored in a linked list will be saved into a log text file. 
 
 # Fun Facts 
-This is an assignment for the <strong>COMP1000: Unix and C Programming</strong> course that I have taken and probably the assignment that I enjoyed the most and had the most fun completing it. 
+This is an assignment for the <strong>COMP1000: Unix and C Programming</strong> course that I have taken and probably the assignment that I enjoyed the most and had the most fun completing it in my uni. 
 
 <strong>Fun fact</strong>: I completed this entire 2 months assignment within 6 days and received a score of 100/100 😗
 
