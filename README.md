@@ -1,21 +1,43 @@
+<p align="center">
+  <img src="https://github.com/zongqiooi/laser-tank/assets/95561298/e0d83e60-406d-49d5-a04b-10d4f088ca66" alt="animated" />
+</p>
+
 # LaserTank
-LaserTank is a mini-game that consists of player, enemy, and mirrors. The player can control the movement by using the W, A, S, D keys and shoot the laser by using the F key. The laser will be reflected when it hits the mirrors. After the game ends, all the game history will be saved into a log file by using a linked list. 
+LaserTank is a 2D game that allows the player to control the movement of the laser tank and shoot a laser. The laser will be reflected when it hits the mirrors. After the game ends, all the game history will be saved into a log file by using a linked list. 
 
-# Software Required to Run the Project 
-[Ubuntu](https://ubuntu.com/download/desktop)
+# Fun Facts 
+This is an assignment for the <strong>COMP1000: Unix and C Programming</strong> course that I have taken and probably the assignment that I enjoyed the most and had the most fun completing it. 
 
-# How to Run the Project
-1) Download all the files.
-2) Open the terminal in Ubuntu. 
-3) Since it involves makefile, "make" has to be downloaded by typing the commands below in the terminal.
-```bash
-sudo apt install make
-```
-4) Run the program by typing the commands below in the terminal.
-```bash
-make
-./laserTank map.txt log.txt 
-```
+<strong>Fun fact</strong>: I completed this entire 2 months assignment within 6 days and received a score of 100/100 😗
 
-# Some Screenshots from the Mini-Game
-![Laser 1](https://user-images.githubusercontent.com/95561298/146946314-0bdf1d91-efcf-4cdc-af08-c9f1f843bf14.PNG)
+# Tech Stack Used
+- C
+- Makefile 
+
+# Features
+- Player movement using the WASD keys
+- Shooting laser using the F key
+- Laser reflection with mirrors
+- Saving game history into "log.txt" files using the L key 
+
+# Pre-requisites 
+Ubuntu environment is required to run the project. The Ubuntu on WSL2 in Windows can be installed and run with VS code in the following link: https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10
+
+# How to Run the Project 
+Make sure you have downloaded Ubuntu as mentioned in the pre-requisites section and changed the environment to Ubuntu in VS Code     
+
+1. Clone the project into the local machine   
+`git clone https://github.com/zongqiooi/laser-tank.git`
+2. Change the directory into the project folder    
+`cd laser-tank`
+3. Open the current directory in VS Code       
+`code .` 
+4. Install "make"        
+`sudo apt install make`
+5. Install "gcc"         
+`sudo apt install gcc`
+6. Compile the makefile        
+`make`
+7. Run the laser tank application file with "map.txt" and "log.txt" as command line arguments         
+`./laserTank map.txt log.txt`
+
