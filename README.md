@@ -23,7 +23,7 @@ This is an assignment for the <strong>COMP1000: Unix and C Programming</strong> 
 3) Laser
     * **Color changing**: Switch in RGB colour when the laser travels each step
 4) Mirrors
-    * **Laser Reflection**: Reflect and change the direction of the laser into 4 different directions depending on the incoming laser direction (North, East, South, West) and mirror-facing directions (/ or \ mirrors)
+    * **Laser reflection**: Reflect and change the direction of the laser into 4 different directions depending on the incoming laser direction (North, East, South, West) and mirror-facing directions (/ or \ mirrors)
 5) Map
     * **Boundary**: Restrict the player and laser to move beyond the boundary
     * **Map size**: Configurable map size by changing the first line in the "map.txt" text file
