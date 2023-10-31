@@ -8,7 +8,7 @@ LaserTank is a 2D game that allows the player to control the movement of the las
 # Fun Facts 
 This is the submission for the assignment of the <strong>COMP1000: Unix and C Programming</strong> uni course that I have taken.  
 
-<strong>Fun fact</strong>: I completed this entire 2 months assignment within 6 days and received a score of 100/100 😗
+<strong>Fun fact</strong>: I completed this entire 2 months assignment within 6 days and received a score of 100/100 
 
 # Tech Stack Used
 - C
