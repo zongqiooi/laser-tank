@@ -41,8 +41,8 @@ LaserTank is a 2D game that allows the player to control the movement of the las
     * **Zero memory leaks**: Achieved zero memory leaks with malloc and free functions for the map created with dynamic array and the game log history stored with linked list
 
 # Tech Stack 
-- [C](https://www.python.org](https://www.cprogramming.com/) - programming language
-- [Makefile](https://numpy.org/](https://www.gnu.org/software/make/) - utility tool for automation
+- [C](https://www.cprogramming.com/) - programming language
+- [Makefile](https://www.gnu.org/software/make/) - utility tool for automation
 
 # Prerequisite 
 Ubuntu environment is required to run the project. The Ubuntu on WSL2 in Windows can be installed and run with VS code in the following link: https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10
